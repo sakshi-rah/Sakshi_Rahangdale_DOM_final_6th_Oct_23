@@ -15,15 +15,14 @@ function displayData(data) {
     data.forEach(coin => {
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td><img src="${coin.image}" alt="${coin.name}" width="20">${coin.name}</td>
+            <td><img src="${coin.image}" alt="${coin.name}" width="20">&nbsp; ${coin.name}</td>
             <td>${coin.id}</td>
             <td>${coin.symbol}</td>
             <td>$${coin.current_price.toFixed(2)}</td>
             <td>$${coin.total_volume.toFixed(2)}</td>
-            <td>${coin.high_24h.toFixed(2)}</td>
-            <td>${coin.low_24h.toFixed(2)}</td>
-            <td>${coin.price_change_24h.toFixed(2)}</td>
-            <td>${coin.last_updated.toFixed(2)}</td>`;
+            <td>$${coin.high_24h.toFixed(2)}</td>
+            <td>$${coin.price_change_24h.toFixed(2)}</td>
+            `;
 
         tableBody.appendChild(row);
     });
