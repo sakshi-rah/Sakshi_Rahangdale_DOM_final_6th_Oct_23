@@ -16,7 +16,17 @@ body {
 
 h1 {
     text-align: center;
-    text-shadow:1px 1px 5px #272626;
+    text-shadow: 1px 1px 5px #272626;
+}
+
+@media(max-width: 470px) {
+    h1{
+        font-size: 22px;
+    }
+    table th {
+       font-size: 13px;
+    }
+    
 }
 
 table {
