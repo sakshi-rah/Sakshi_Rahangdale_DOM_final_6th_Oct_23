@@ -8,21 +8,7 @@ Live Demo: https://sakshi-rah.github.io/Sakshi_Rahangdale_DOM_final_6th_Oct_23/
 
 The CryptoMarket Dashboard is designed to fetch cryptocurrency market data from the CoinGecko API, store it in an array, and display it on a webpage in the form of a table. It employs JavaScript promises (using the .then method) and async-await methods for handling API requests. Additionally, the displayed data adheres to specific styling guidelines as per a provided sample image from Figma.
 
-<h2>3. Fetching Data from the API -: </h2>
-
-- The project demonstrates two methods for fetching data from the API: using promises with the .then method and using async-await.
-
-- Promises (.then Method) -:
-The .fetch method is used to make a GET request to the CoinGecko API.
-
-- .then is used to handle the response and parse it into JSON format.
-
-- Async-Await Method -: 
-An async function is created to handle API requests.
-
-- The await keyword is used to wait for the API response.
-
-<h2>4. Data Storage -:</h2>
+<h2>3. Data Storage -:</h2>
 
 - The fetched data is stored in an array, with each object containing the following fields:
 
@@ -33,7 +19,7 @@ An async function is created to handle API requests.
         5. Current Price
         6. Total Volume
 
-<h2>5. Displaying Data -:</h2>
+<h2>4. Displaying Data -:</h2>
 
 - HTML Table
 An HTML table is created to display the cryptocurrency market data.
@@ -44,7 +30,7 @@ JavaScript is used to dynamically populate the table rows with data from the arr
 - Styling
 CSS styles are applied to the table to match the provided sample image from Figma.
 
-<h2>6. Additional Features -: </h2>
+<h2>5. Additional Features -: </h2>
 
 - Coin Icons and Names
 - Coin icons and names are displayed together in the table.
@@ -52,5 +38,6 @@ CSS styles are applied to the table to match the provided sample image from Figm
 - The percentage change is displayed in green for positive values and red for negative values.
 - Dollar Sign ($)
 - Dollar signs ($) are added to numerical values (current price and total volume) as shown in the sample image.
+- 
 ## Output: 
 ![Live](./Screenshot.png)
